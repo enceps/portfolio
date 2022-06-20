@@ -140,8 +140,9 @@ h3 {
 }
 
 .Project-1 {
-  
-    border:#000000 solid;
+    background-image: url(./images/Run-Buddy.png);
+    background-repeat: no-repeat;
+    background-size:cover;
     flex-basis: auto;
     flex: 1;
     flex-grow: 3;
@@ -149,7 +150,6 @@ h3 {
 }
 
 .sub-project {
-    border:#000000 solid;
     flex-basis: auto;
     flex-grow: 1;
     margin: 0 10px 0 0;
@@ -160,19 +160,32 @@ h3 {
 }
 
 .Project-2 {
-  
-    border:#000000 solid;
+    background-image: url(./images/Run-Buddy.png);
+    flex-basis: auto;
+    flex-grow: 1;
+    margin: 0 0 10px 0;
+}
+
+.Project-3 {
+    background-image: url(./images/Run-Buddy.png);
     flex-basis: auto;
     flex-grow: 1;
     margin: 0 0 0 0;
 }
 
-.Project-3 {
-  
-    border:#000000 solid;
-    flex-basis: auto;
-    flex-grow: 1;
-    margin: 0 0 0 0;
+.Project-1:hover {
+
+    border: #000000 solid;
+}
+
+.Project-2:hover {
+
+    border: #000000 solid;
+}
+
+.Project-3:hover {
+
+    border: #000000 solid;
 }
 
 #Work {
@@ -197,4 +210,17 @@ h3 {
     flex-direction: column;
     flex-wrap: wrap;
     height:80vh;
+}
+
+.project-link {
+font-style: normal;
+display: block;
+height: 100%;
+width: 100%;
+
+}
+
+h4 {
+    background-color: #000000;
+    font-size: 5em;
 }
