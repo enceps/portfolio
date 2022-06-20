@@ -25,6 +25,19 @@ header {
     z-index: 1;
 }
 
+p {
+    padding: 0 25% 0 25%;
+    font-size: large;
+    font-weight: bold;
+}
+
+ul {
+    padding: 0 25% 0 25%;
+    font-size: large;
+    font-weight: bold;
+
+}
+
 h1 {
 
     width:99vh;
