@@ -173,7 +173,7 @@ h3 {
 }
 
 .Project-2 {
-    background-image: url(https://github.com/RyanOfEastview/group4-music/raw/main/screenshots/Gp4MusicPreviewMobile1.jpg);
+    background-image: url("https://github.com/RyanOfEastview/group4-music/raw/main/screenshots/Gp4MusicPreviewMobile1.jpg");
     flex-basis: auto;
     flex-grow: 1;
     margin: 0 0 10px 0;
